@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    background-color:rgb(45, 110, 45);
+}
+ul{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: larger;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li a:hover{
+    color: red;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+}
+/**********************************Right Nav*****************************/
+.right-nav{
+    width: 80%;
+    text-align: right;
+    padding:0 25px ;
+}
+.right-nav input{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    margin-top: 16px;
+    border-radius: 5px;
+}
+.right-nav button{
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    text-align: center;
+    font-size: 13px;
+    background-color: purple;
+    color: white;
+    font-weight: 600;
+
+}
