@@ -1,139 +1,170 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-.navbar{
-    display: flex;
-    background-color:rgb(45, 110, 45);
+.navbar {
+  display: flex;
+  background-color: rgb(45, 110, 45);
 }
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
-ul li a{
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: larger;
-    padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: larger;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-ul li a:hover{
-    color: red;
+ul li a:hover {
+  color: red;
 }
-.navlinks{
-    display: flex;
-    align-items: center;
+.navlinks {
+  display: flex;
+  align-items: center;
 }
 /**********************************Right Nav*****************************/
-.right-nav{
-    width: 80%;
-    text-align: right;
-    padding:0 25px ;
+.right-nav {
+  width: 80%;
+  text-align: right;
+  padding: 0 25px;
 }
-.right-nav input{
-    padding: 5px 10px;
-    border: none;
-    outline: none;
-    margin-top: 16px;
-    border-radius: 5px;
+.right-nav input {
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  margin-top: 16px;
+  border-radius: 5px;
 }
-.right-nav button{
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border: none;
-    text-align: center;
-    font-size: 13px;
-    background-color: purple;
-    color: white;
-    font-weight: 600;
-
+.right-nav button {
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  text-align: center;
+  font-size: 13px;
+  background-color: purple;
+  color: white;
+  font-weight: 600;
 }
 
 /********************Main Section Design************/
-.background{
-    background: url('./background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}   
-.first-section{
-    height: 100vh;
+.background {
+  background: url("./background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.main-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70%;
-    line-height: 2;
-    max-width: 100%;
-    padding:50px;
-    margin: auto;
-    color: whitesmoke;
-    font-family: 'Poppins', sans-serif;
+.first-section {
+  height: 100vh;
 }
-.first-half{
-    width: 80%;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   margin-right: 100px;
+.main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  line-height: 2;
+  max-width: 100%;
+  padding: 50px;
+  margin: auto;
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+}
+.first-half {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 100px;
+}
+.buttons button {
+  padding: 10px 20px;
+  background-color: rgb(139, 45, 139);
+  text-align: center;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px;
+  width: 200px;
+}
+.first-half button:hover {
+  background-color: rgb(226, 25, 65);
+  cursor: pointer;
+  outline: 2px solid transparent;
+  border: none;
+}
 
+.second-half {
+  width: 30%;
 }
-.buttons button{
-    padding: 10px 20px;
-    background-color:rgb(139, 45, 139);
-    text-align: center;
-    color: whitesmoke;
-    border: none;
-    border-radius: 5px;
-    font-size:16px;
-    margin:10px;
-    width: 200px;
-    
-    
-}
-.first-half button:hover{
-    background-color: rgb(226, 25, 65);
-    cursor: pointer;
-    outline:2px solid transparent;
-    border: none;
-}
- 
-.second-half{
-    width:30%;
-}
-.second-half img{
-    border-radius:300px;
-    width: 100%;
-    height: 100px;
-    border: 4px solid white;
-    border-radius:150%;
+.second-half img {
+  border-radius: 300px;
+  width: 100%;
+  height: 100px;
+  border: 4px solid white;
+  border-radius: 150%;
 }
 
 /*********************************Section2************************************************/
-.section{
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:80%;
-    margin:auto;
-    margin-top: 20px;
+.section {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
 }
 
-.information{
-    padding: 0px 20px;
+.information {
+  padding: 0px 20px;
 }
-.imgFluid{
-    width:200px;
-    height:200px;
-    border-radius:8px;
+.imgFluid {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
 }
 
-.sec-left{
-    flex-direction:row-reverse;
+.sec-left {
+  flex-direction: row-reverse;
+}
+
+/**********************************Form section************************************/
+.form {
+  background: url("https://img.freepik.com/free-vector/wavy-background-with-copy-space_52683-65230.jpg?w=740&t=st=1684300044~exp=1684300644~hmac=fb57389c62d0fa9bb2625e0d666b7209b830cc6ecbcbd7d1f47921c5f347376e") no-repeat;
+  height: 550px;
+}
+.form-box {
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-controller {
+  width: 60%;
+}
+.form-controller input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  margin: 10px 0;
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.form-controller .btn {
+  background-color: rgb(34, 85, 34);
+  font-size: large;
+  color: whitesmoke;
+  margin-top: 8px;
+  border: none;
+  outline: none;
+}
+.form-controller .btn:hover {
+  background-color: red;
 }
